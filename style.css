@@ -1,0 +1,81 @@
+/* Estilo geral da página */
+body {
+  margin: 0 auto;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: lightskyblue;
+}
+
+/*Cabeçalho e rodapé */
+header,
+footer {
+  padding: 20px;
+  background-color: darkblue;
+  color: orange;
+  display: block;
+  text-align: center;
+}
+
+/* Links em geral */
+a {
+  text-decoration: none;
+}
+
+/* Barra de navegação */
+nav {
+  background-color: blue;
+  padding: 1px;
+}
+nav a {
+  color: yellow;
+}
+
+/* Lista do menu */
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+li {
+  margin: 10px;
+  font-size: 25px;
+}
+
+/* Conteúdo principal */
+main {
+  color: darkblue;
+  margin: 15px;
+}
+
+/* Parágrafos */
+p {
+  margin: 15px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+p a {
+  color: darkblue;
+  text-decoration: underline;
+  margin: 15px;
+}
+
+/* Títulos */
+h2 {
+  font-size: 25px;
+}
+
+/* Estilos do formulário */
+.input-texto {
+  width: 300px;
+  font-size: 15px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+}
+.button {
+  color: orange;
+  background: darkblue;
+  border-radius: 5px;
+}

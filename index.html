@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio Pessoal</title>
+    <!-- Estilização da página com css externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <!-- Conteúdo da página -->
+  <body>
+    <!-- Cabeçalho da página -->
+    <header id="titulo-da-pagina">
+      <h1>Portfólio pessoal de Fernando Oliveira</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav id="menu-links">
+      <ul>
+        <li>
+          <a href="#sobre-mim">Sobre mim</a>
+        </li>
+        <li>
+          <a href="#formacao">Formação</a>
+        </li>
+        <li>
+          <a href="#portfolio">Portfólio</a>
+        </li>
+        <li>
+          <a href="#contato">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Seção "Sobre mim" -->
+      <section id="sobre-mim">
+        <h2>Sobre mim</h2>
+        <p>
+          Me chamo Fernando Oliveira, tenho 39 anos. <br />A minha família é
+          composta por mim, minha esposa Jéssica e nossos dois cachorros: Luna e
+          Joaquim. <br />
+          Tenho grande interesse por esportes, animais e claro tecnologia!!
+          <br />Nado, corro e jogo futebol e passo a maior parte do tempo me
+          dedicando ao trabalho, desenvolvendo aplicações.
+        </p>
+        <br />
+      </section>
+
+      <!-- Seção "Formação" -->
+      <section id="formacao">
+        <h2>Formação</h2>
+        <p>
+          Tenho uma formação diversificada: <br />
+          Graduado em Matemática e Pedagogia <br />
+          Especialista em "Gestão escolar" <br />
+          Mestre e Doutor em Meteorologia <br />
+          Graduação em Análise e Desenvolvimento de Sistemas (em andamento)
+        </p>
+        <br />
+      </section>
+
+      <!-- Seção "Portfólio" -->
+      <section id="portfolio">
+        <h2>Portfólio</h2>
+        <p>
+          <b>
+            Uma parte de meu trabalho está disponível no Github, fique a vontade
+            para visitar!! (segue uma pequena amostra)
+          </b>
+        </p>
+        <p>
+          <!-- Link para o repositório do Github -->
+          <a href="https://github.com/oliveira-fp/">Repositório completo</a>
+          <br /><br />
+
+          <!-- Projetos específicos -->
+          <a
+            href="https://github.com/oliveira-fp/preprocessamento-TELEMAC-gera-malha"
+            >Sistema para geração de grade para o modelo Telemac</a
+          >
+          <br /><br />
+          <a href="https://github.com/oliveira-fp/telemac-preprocessamento"
+            >Sistema para preparação de dados de entrada para o modelo
+            Telemac</a
+          >
+          <br /><br />
+          <a href="https://github.com/oliveira-fp/sistema-bancario-python"
+            >Sistema Bancário simples</a
+          >
+          <br /><br />
+
+          <a href="https://github.com/oliveira-fp/trabalho1-fds"
+            >Trabalho da disciplina "Fundamentos de desenvolvimento de
+            software"</a
+          >
+          <br /><br />
+        </p>
+      </section>
+
+      <!-- Seção "Contato" -->
+      <section id="contato">
+        <h2>Contato</h2>
+        <form action="">
+          <!-- Campo para inserção do Nome -->
+          <label for="nome">Nome:</label><br />
+          <input
+            type="text"
+            id="nome"
+            name="nome"
+            class="input-texto"
+            placeholder="Digite seu nome"
+          />
+          <br /><br />
+
+          <!-- Campo para inserção do Email -->
+          <label for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="input-texto"
+            placeholder="Digite seu melhor email"
+          /><br /><br />
+
+          <!-- Campo para Mensagem -->
+          <label for="mensagem">Mansagem:</label> <br />
+          <textarea name="mensagem" id="mensagem"></textarea><br /><br />
+
+          <!-- Botão de envio -->
+          <input type="submit" value="Enviar" class="button" />
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+      <p>
+        Desenvolvido por Fernando Pereira de Oliveira como parte da disciplina
+        "Fundamentos da Programação Web"
+      </p>
+    </footer>
+  </body>
+</html>
